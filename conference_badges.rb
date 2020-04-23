@@ -1,5 +1,6 @@
 def badge_maker(name)
-  puts message = "Hello, my name is #{name}."
+  message = "Hello, my name is #{name}."
+  puts message
   message
 end
 

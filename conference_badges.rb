@@ -10,7 +10,7 @@ end
 
 def assign_rooms(attendees)
   #Hello, Edsger! You'll be assigned to room 1!"
-  attendees.collect do |attendee|
-    "Hello, #{attendee}! You'll be assigned to room 1!"
+  attendees.each_with_index do |attendee, index|
+    "Hello, #{attendee}! You'll be assigned to room #{index + 1}!"
   end
 end

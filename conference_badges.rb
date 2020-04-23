@@ -10,10 +10,11 @@ end
 
 def assign_rooms(attendees)
   assignments = []
-  #Hello, Edsger! You'll be assigned to room 1!"
   attendees.each_with_index do |attendee, index|
     assignments << ("Hello, #{attendee}! You'll be assigned to room #{index + 1}!")
   end
-
   return assignments
+end
+
+def printer(attendees)
 end
